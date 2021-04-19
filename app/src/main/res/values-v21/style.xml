@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Generalized Main Theme -->
+    <style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+
+        <item name="android:fontFamily">@font/poppins</item>
+        <item name="android:statusBarColor">?attr/primaryDarkColor</item>
+    </style>
+
+    <style name="selectableItemBackground">
+        <item name="colorControlHighlight">?attr/primaryColor</item>
+        <item name="android:background">?attr/selectableItemBackground</item>
+    </style>
+
+</resources>

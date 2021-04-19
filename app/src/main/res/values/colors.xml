@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="transparentBackground">#00ffffff</color>
+
+    <color name="lightBackground">#f5f5f5</color>
+    <color name="darkBackground">#111111</color>
+
+    <color name="whiteTextColor">#ffffff</color>
+    <color name="blackTextColor">#000000</color>
+
+    <color name="lightTextColor">#eeeeee</color>
+    <color name="darkTextColor">#000000</color>
+
+    <color name="lightSecondaryTextColor">#777777</color>
+    <color name="darkSecondaryTextColor">#cccccc</color>
+
+    <color name="lightListDivider">#aaaaaa</color>
+    <color name="darkListDivider">#888888</color>
+
+    <color name="lightHighlightColor">#dddddd</color>
+    <color name="darkHighlightColor">#222222</color>
+
+    <color name="lightCardBackgroundColor">#ffffff</color>
+    <color name="darkCardBackgroundColor">#111111</color>
+
+    <color name="primaryColorAmber">#ffc107</color>
+    <color name="primaryLightColorAmber">#fff350</color>
+    <color name="primaryDarkColorAmber">#c79100</color>
+    <color name="primaryTextColorAmber">#000000</color>
+
+    <color name="primaryColorBloodRed">#ff0000</color>
+    <color name="primaryLightColorBloodRed">#ff5a36</color>
+    <color name="primaryDarkColorBloodRed">#c20000</color>
+    <color name="primaryTextColorBloodRed">#ffffff</color>
+
+    <color name="primaryColorBlue">#2196f3</color>
+    <color name="primaryLightColorBlue">#6ec6ff</color>
+    <color name="primaryDarkColorBlue">#0069c0</color>
+    <color name="primaryTextColorBlue">#ffffff</color>
+
+    <color name="primaryColorBrightBlue">#00c0ff</color>
+    <color name="primaryLightColorBrightBlue">#6af3ff</color>
+    <color name="primaryDarkColorBrightBlue">#0090cc</color>
+    <color name="primaryTextColorBrightBlue">#ffffff</color>
+
+    <color name="primaryColorBrightPurple">#aa00ff</color>
+    <color name="primaryLightColorBrightPurple">#e254ff</color>
+    <color name="primaryDarkColorBrightPurple">#7200ca</color>
+    <color name="primaryTextColorBrightPurple">#ffffff</color>
+
+    <color name="primaryColorBrightRed">#d50000</color>
+    <color name="primaryLightColorBrightRed">#ff5131</color>
+    <color name="primaryDarkColorBrightRed">#9b0000</color>
+    <color name="primaryTextColorBrightRed">#ffffff</color>
+
+    <color name="primaryColorBrown">#795548</color>
+    <color name="primaryLightColorBrown">#a98274</color>
+    <color name="primaryDarkColorBrown">#4b2c20</color>
+    <color name="primaryTextColorBrown">#ffffff</color>
+
+    <color name="primaryColorCyan">#00e5ff</color>
+    <color name="primaryLightColorCyan">#6effff</color>
+    <color name="primaryDarkColorCyan">#00b2cc</color>
+    <color name="primaryTextColorCyan">#000000</color>
+
+    <color name="primaryColorDarkPurple">#6200ea</color>
+    <color name="primaryLightColorDarkPurple">#9d46ff</color>
+    <color name="primaryDarkColorDarkPurple">#0a00b6</color>
+    <color name="primaryTextColorDarkPurple">#ffffff</color>
+
+    <color name="primaryColorDeepOrange">#ff5722</color>
+    <color name="primaryLightColorDeepOrange">#ff8a50</color>
+    <color name="primaryDarkColorDeepOrange">#c41c00</color>
+    <color name="primaryTextColorDeepOrange">#ffffff</color>
+
+    <color name="primaryColorDeepPurple">#7c4dff</color>
+    <color name="primaryLightColorDeepPurple">#b47cff</color>
+    <color name="primaryDarkColorDeepPurple">#3f1dcb</color>
+    <color name="primaryTextColorDeepPurple">#ffffff</color>
+
+    <color name="primaryColorGreen">#00ff00</color>
+    <color name="primaryLightColorGreen">#70ff56</color>
+    <color name="primaryDarkColorGreen">#00ca00</color>
+    <color name="primaryTextColorGreen">#000000</color>
+
+    <color name="primaryColorIndigo">#304ffe</color>
+    <color name="primaryLightColorIndigo">#7a7cff</color>
+    <color name="primaryDarkColorIndigo">#0026ca</color>
+    <color name="primaryTextColorIndigo">#ffffff</color>
+
+    <color name="primaryColorLeafGreen">#76ff03</color>
+    <color name="primaryLightColorLeafGreen">#b0ff57</color>
+    <color name="primaryDarkColorLeafGreen">#32cb00</color>
+    <color name="primaryTextColorLeafGreen">#000000</color>
+
+    <color name="primaryColorLemon">#ffff00</color>
+    <color name="primaryLightColorLemon">#ffff5a</color>
+    <color name="primaryDarkColorLemon">#c7cc00</color>
+    <color name="primaryTextColorLemon">#000000</color>
+
+    <color name="primaryColorLightBlue">#40c4ff</color>
+    <color name="primaryLightColorLightBlue">#82f7ff</color>
+    <color name="primaryDarkColorLightBlue">#0094cc</color>
+    <color name="primaryTextColorLightBlue">#000000</color>
+
+    <color name="primaryColorLightGreen">#acf441</color>
+    <color name="primaryLightColorLightGreen">#e1ff76</color>
+    <color name="primaryDarkColorLightGreen">#77c100</color>
+    <color name="primaryTextColorLightGreen">#000000</color>
+
+    <color name="primaryColorLime">#d0ff00</color>
+    <color name="primaryLightColorLime">#ffff58</color>
+    <color name="primaryDarkColorLime">#9acc00</color>
+    <color name="primaryTextColorLime">#000000</color>
+
+    <color name="primaryColorOrange">#ff9800</color>
+    <color name="primaryLightColorOrange">#ffc947</color>
+    <color name="primaryDarkColorOrange">#c66900</color>
+    <color name="primaryTextColorOrange">#ffffff</color>
+
+    <color name="primaryColorPink">#e91e63</color>
+    <color name="primaryLightColorPink">#ff6090</color>
+    <color name="primaryDarkColorPink">#b0003a</color>
+    <color name="primaryTextColorPink">#ffffff</color>
+
+    <color name="primaryColorPurple">#9c27b0</color>
+    <color name="primaryLightColorPurple">#d05ce3</color>
+    <color name="primaryDarkColorPurple">#6a0080</color>
+    <color name="primaryTextColorPurple">#ffffff</color>
+
+    <color name="primaryColorRed">#f44336</color>
+    <color name="primaryLightColorRed">#ff7961</color>
+    <color name="primaryDarkColorRed">#ba000d</color>
+    <color name="primaryTextColorRed">#ffffff</color>
+
+    <color name="primaryColorSkyPurple">#7700d8</color>
+    <color name="primaryLightColorSkyPurple">#ae48ff</color>
+    <color name="primaryDarkColorSkyPurple">#3c00a5</color>
+    <color name="primaryTextColorSkyPurple">#ffffff</color>
+
+    <color name="primaryColorDarkGreen">#00990d</color>
+    <color name="primaryLightColorDarkGreen">#53cb45</color>
+    <color name="primaryDarkColorDarkGreen">#006900</color>
+    <color name="primaryTextColorDarkGreen">#ffffff</color>
+
+    <color name="primaryColorYellow">#ffeb3b</color>
+    <color name="primaryLightColorYellow">#ffff72</color>
+    <color name="primaryDarkColorYellow">#c8b900</color>
+    <color name="primaryTextColorYellow">#000000</color>
+
+</resources>
+
+

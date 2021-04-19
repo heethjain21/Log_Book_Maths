@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">Log Book - Maths</string>
+    <string name="open">Open navigation drawer</string>
+    <string name="close">Close navigation drawer</string>
+    <string name="zoomInOutSnackBar">Double tap on the image to Zoom In/Out</string>
+    <string name="comingSoon">Coming Soon.....</string>
+    <string name="webBrowserNotFound">No web browser found!</string>
+    <string name="playStoreNotFound">No Play Store found!</string>
+    <string name="error">Some error has occurred, please try again</string>
+    <string name="copied">Result copied to clipboard!</string>
+    <string name="memory">Out of Memory!</string>
+    <string name="backPressed">Press Back Button once again to exit!</string>
+    <string name="purchaseSuccessful">Purchase Successful!</string>
+
+    <!--Fragment Home related strings/texts-->
+
+    <string name="logTitle">Logarithms</string>
+    <string name="alogTitle">Antilogarithms</string>
+    <string name="sinTitle">Sines</string>
+    <string name="cosTitle">Cosines</string>
+    <string name="tanTitle">Tangents</string>
+    <string name="powTitle">Powers</string>
+    <string name="squaresTitle">Squares</string>
+    <string name="sqrtTitle">Square Roots</string>
+    <string name="factTitle">Factorials</string>
+    <string name="reciTitle">Reciprocals</string>
+    <string name="lsinTitle">Log Sines</string>
+    <string name="lcosTitle">Log Cosines</string>
+    <string name="ltanTitle">Log Tangents</string>
+    <string name="isinTitle">Sin Inverse</string>
+    <string name="icosTitle">Cos Inverse</string>
+    <string name="itanTitle">Tan Inverse</string>
+
+    <string name="logFunc">log(x)</string>
+    <string name="alogFunc">alog(x)</string>
+    <string name="sinFunc">sin(x)</string>
+    <string name="cosFunc">cos(x)</string>
+    <string name="tanFunc">tan(x)</string>
+    <string name="powFunc">x<sup>y</sup></string>
+    <string name="squaresFunc">x<sup><small>2</small></sup></string>
+    <string name="sqrtFunc">√x</string>
+    <string name="factFunc">x!</string>
+    <string name="reciFunc">1/x</string>
+    <string name="lsinFunc">log(sin)</string>
+    <string name="lcosFunc">log(cos)</string>
+    <string name="ltanFunc">log(tan)</string>
+    <string name="isinFunc">sin<sup>-1</sup>x</string>
+    <string name="icosFunc">cos<sup>-1</sup>x</string>
+    <string name="itanFunc">tan<sup>-1</sup>x</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

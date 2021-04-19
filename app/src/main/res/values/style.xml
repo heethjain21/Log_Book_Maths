@@ -1,0 +1,517 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <!-- RoundingDialog related theme -->
+
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <!-- Textbox related theme -->
+    <style name="MyTextInputLayoutStyle" >
+        <item name="colorAccent">?attr/primaryColor</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <!-- Toolbar related theme -->
+    <style name="ToolbarTitleText" parent="TextAppearance.Widget.AppCompat.Toolbar.Title">
+        <item name="android:textSize">18sp</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <!-- NavigationView related theme -->
+    <style name="NavigationViewTheme" parent="ThemeOverlay.AppCompat.Light">
+        <item name="colorControlHighlight">?attr/highlightColor</item>
+        <item name="android:textColorSecondary">?attr/secondaryTextColor</item>
+        <item name="android:textSize">12sp</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <!-- ProgressBar related theme -->
+    <style name="ProgressBarTheme" parent="Theme.AppCompat">
+        <item name="colorAccent">?attr/primaryColor</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <!-- AlertDialog related theme -->
+    <style name="AlertDialogStyle" parent="Theme.AppCompat.Light.Dialog">
+        <item name="android:textColor">#333333</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- Generalized Main Theme -->
+    <style name="MyTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Font Family -->
+        <item name="android:fontFamily">@font/poppins</item>
+
+    </style>
+
+    <!-- Generalized Light Theme -->
+    <style name="LightTheme" parent="MyTheme">
+
+        <!-- Text related styling -->
+        <item name="textColor">@color/darkTextColor</item>
+        <item name="secondaryTextColor">@color/lightSecondaryTextColor</item>
+
+        <!-- Background related styling -->
+        <item name="backgroundColor">@color/lightBackground</item>
+
+        <!-- CardView related styling-->
+        <item name="cardBackgroundColor">@color/lightCardBackgroundColor</item>
+
+        <!-- NavigationView related styling -->
+        <item name="highlightColor">@color/lightHighlightColor</item>
+        <item name="android:listDivider">@color/lightListDivider</item>
+
+        <!-- SwitchCompat related styling -->
+        <item name="darkModeSwitch">false</item>
+
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+    <!-- Generalized Dark Theme -->
+    <style name="DarkTheme" parent="MyTheme">
+
+        <!-- Text related styling -->
+        <item name="textColor">@color/lightTextColor</item>
+        <item name="secondaryTextColor">@color/darkSecondaryTextColor</item>
+
+        <!-- Background related styling -->
+        <item name="backgroundColor">@color/darkBackground</item>
+
+        <!-- CardView related styling-->
+        <item name="cardBackgroundColor">@color/darkCardBackgroundColor</item>
+
+        <!-- NavigationView related styling -->
+        <item name="highlightColor">@color/darkHighlightColor</item>
+
+        <!-- SwitchCompat related styling -->
+        <item name="darkModeSwitch">true</item>
+
+    </style>
+
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- Amber Theme -->
+    <style name="AmberLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorAmber</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorAmber</item>
+        <item name="trackTintColor">@color/primaryLightColorAmber</item>
+        <item name="android:listDivider">@color/primaryColorAmber</item>
+        <item name="accentTextColor">@color/primaryTextColorAmber</item>
+    </style>
+    <style name="AmberDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorAmber</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorAmber</item>
+        <item name="trackTintColor">@color/primaryDarkColorAmber</item>
+        <item name="android:listDivider">@color/primaryColorAmber</item>
+        <item name="accentTextColor">@color/primaryTextColorAmber</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- BloodRed Theme -->
+    <style name="BloodRedLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorBloodRed</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorBloodRed</item>
+        <item name="trackTintColor">@color/primaryLightColorBloodRed</item>
+        <item name="android:listDivider">@color/primaryColorBloodRed</item>
+        <item name="accentTextColor">@color/primaryTextColorBloodRed</item>
+    </style>
+    <style name="BloodRedDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorBloodRed</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorBloodRed</item>
+        <item name="trackTintColor">@color/primaryDarkColorBloodRed</item>
+        <item name="android:listDivider">@color/primaryColorBloodRed</item>
+        <item name="accentTextColor">@color/primaryTextColorBloodRed</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- Blue Theme -->
+    <style name="BlueLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorBlue</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorBlue</item>
+        <item name="trackTintColor">@color/primaryLightColorBlue</item>
+        <item name="android:listDivider">@color/primaryColorBlue</item>
+        <item name="accentTextColor">@color/primaryTextColorBlue</item>
+    </style>
+    <style name="BlueDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorBlue</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorBlue</item>
+        <item name="trackTintColor">@color/primaryDarkColorBlue</item>
+        <item name="android:listDivider">@color/primaryColorBlue</item>
+        <item name="accentTextColor">@color/primaryTextColorBlue</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- BrightBlue Theme -->
+    <style name="BrightBlueLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorBrightBlue</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorBrightBlue</item>
+        <item name="trackTintColor">@color/primaryLightColorBrightBlue</item>
+        <item name="android:listDivider">@color/primaryColorBrightBlue</item>
+        <item name="accentTextColor">@color/primaryTextColorBrightBlue</item>
+    </style>
+    <style name="BrightBlueDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorBrightBlue</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorBrightBlue</item>
+        <item name="trackTintColor">@color/primaryDarkColorBrightBlue</item>
+        <item name="android:listDivider">@color/primaryColorBrightBlue</item>
+        <item name="accentTextColor">@color/primaryTextColorBrightBlue</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- BrightPurple Theme -->
+    <style name="BrightPurpleLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorBrightPurple</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorBrightPurple</item>
+        <item name="trackTintColor">@color/primaryLightColorBrightPurple</item>
+        <item name="android:listDivider">@color/primaryColorBrightPurple</item>
+        <item name="accentTextColor">@color/primaryTextColorBrightPurple</item>
+    </style>
+    <style name="BrightPurpleDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorBrightPurple</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorBrightPurple</item>
+        <item name="trackTintColor">@color/primaryDarkColorBrightPurple</item>
+        <item name="android:listDivider">@color/primaryColorBrightPurple</item>
+        <item name="accentTextColor">@color/primaryTextColorBrightPurple</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- BrightRed Theme -->
+    <style name="BrightRedLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorBrightRed</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorBrightRed</item>
+        <item name="trackTintColor">@color/primaryLightColorBrightRed</item>
+        <item name="android:listDivider">@color/primaryColorBrightRed</item>
+        <item name="accentTextColor">@color/primaryTextColorBrightRed</item>
+    </style>
+    <style name="BrightRedDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorBrightRed</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorBrightRed</item>
+        <item name="trackTintColor">@color/primaryDarkColorBrightRed</item>
+        <item name="android:listDivider">@color/primaryColorBrightRed</item>
+        <item name="accentTextColor">@color/primaryTextColorBrightRed</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- Brown Theme -->
+    <style name="BrownLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorBrown</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorBrown</item>
+        <item name="trackTintColor">@color/primaryLightColorBrown</item>
+        <item name="android:listDivider">@color/primaryColorBrown</item>
+        <item name="accentTextColor">@color/primaryTextColorBrown</item>
+    </style>
+    <style name="BrownDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorBrown</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorBrown</item>
+        <item name="trackTintColor">@color/primaryDarkColorBrown</item>
+        <item name="android:listDivider">@color/primaryColorBrown</item>
+        <item name="accentTextColor">@color/primaryTextColorBrown</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- Cyan Theme -->
+    <style name="CyanLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorCyan</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorCyan</item>
+        <item name="trackTintColor">@color/primaryLightColorCyan</item>
+        <item name="android:listDivider">@color/primaryColorCyan</item>
+        <item name="accentTextColor">@color/primaryTextColorCyan</item>
+    </style>
+    <style name="CyanDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorCyan</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorCyan</item>
+        <item name="trackTintColor">@color/primaryDarkColorCyan</item>
+        <item name="android:listDivider">@color/primaryColorCyan</item>
+        <item name="accentTextColor">@color/primaryTextColorCyan</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- DarkGreen Theme -->
+    <style name="DarkGreenLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorDarkGreen</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorDarkGreen</item>
+        <item name="trackTintColor">@color/primaryLightColorDarkGreen</item>
+        <item name="android:listDivider">@color/primaryTextColorDarkGreen</item>
+        <item name="accentTextColor">@color/whiteTextColor</item>
+    </style>
+    <style name="DarkGreenDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorDarkGreen</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorDarkGreen</item>
+        <item name="trackTintColor">@color/primaryDarkColorDarkGreen</item>
+        <item name="android:listDivider">@color/primaryColorDarkGreen</item>
+        <item name="accentTextColor">@color/primaryTextColorDarkGreen</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- DarkPurple Theme -->
+    <style name="DarkPurpleLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorDarkPurple</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorDarkPurple</item>
+        <item name="trackTintColor">@color/primaryLightColorDarkPurple</item>
+        <item name="android:listDivider">@color/primaryColorDarkPurple</item>
+        <item name="accentTextColor">@color/primaryTextColorDarkPurple</item>
+    </style>
+    <style name="DarkPurpleDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorDarkPurple</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorDarkPurple</item>
+        <item name="trackTintColor">@color/primaryDarkColorDarkPurple</item>
+        <item name="android:listDivider">@color/primaryColorDarkPurple</item>
+        <item name="accentTextColor">@color/primaryTextColorDarkPurple</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- DeepOrange Theme -->
+    <style name="DeepOrangeLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorDeepOrange</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorDeepOrange</item>
+        <item name="trackTintColor">@color/primaryLightColorDeepOrange</item>
+        <item name="android:listDivider">@color/primaryColorDeepOrange</item>
+        <item name="accentTextColor">@color/primaryTextColorDeepOrange</item>
+    </style>
+    <style name="DeepOrangeDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorDeepOrange</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorDeepOrange</item>
+        <item name="trackTintColor">@color/primaryDarkColorDeepOrange</item>
+        <item name="android:listDivider">@color/primaryColorDeepOrange</item>
+        <item name="accentTextColor">@color/primaryTextColorDeepOrange</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- DeepPurple Theme -->
+    <style name="DeepPurpleLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorDeepPurple</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorDeepPurple</item>
+        <item name="trackTintColor">@color/primaryLightColorDeepPurple</item>
+        <item name="android:listDivider">@color/primaryColorDeepPurple</item>
+        <item name="accentTextColor">@color/primaryTextColorDeepPurple</item>
+    </style>
+    <style name="DeepPurpleDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorDeepPurple</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorDeepPurple</item>
+        <item name="trackTintColor">@color/primaryDarkColorDeepPurple</item>
+        <item name="android:listDivider">@color/primaryColorDeepPurple</item>
+        <item name="accentTextColor">@color/primaryTextColorDeepPurple</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- Green Theme -->
+    <style name="GreenLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorGreen</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorGreen</item>
+        <item name="trackTintColor">@color/primaryLightColorGreen</item>
+        <item name="android:listDivider">@color/primaryColorGreen</item>
+        <item name="accentTextColor">@color/primaryTextColorGreen</item>
+    </style>
+    <style name="GreenDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorGreen</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorGreen</item>
+        <item name="trackTintColor">@color/primaryDarkColorGreen</item>
+        <item name="android:listDivider">@color/primaryColorGreen</item>
+        <item name="accentTextColor">@color/primaryTextColorGreen</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- Indigo Theme -->
+    <style name="IndigoLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorIndigo</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorIndigo</item>
+        <item name="trackTintColor">@color/primaryLightColorIndigo</item>
+        <item name="android:listDivider">@color/primaryColorIndigo</item>
+        <item name="accentTextColor">@color/primaryTextColorIndigo</item>
+    </style>
+    <style name="IndigoDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorIndigo</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorIndigo</item>
+        <item name="trackTintColor">@color/primaryDarkColorIndigo</item>
+        <item name="android:listDivider">@color/primaryColorIndigo</item>
+        <item name="accentTextColor">@color/primaryTextColorIndigo</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- LeafGreen Theme -->
+    <style name="LeafGreenLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorLeafGreen</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorLeafGreen</item>
+        <item name="trackTintColor">@color/primaryLightColorLeafGreen</item>
+        <item name="android:listDivider">@color/primaryColorLeafGreen</item>
+        <item name="accentTextColor">@color/primaryTextColorLeafGreen</item>
+    </style>
+    <style name="LeafGreenDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorLeafGreen</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorLeafGreen</item>
+        <item name="trackTintColor">@color/primaryDarkColorLeafGreen</item>
+        <item name="android:listDivider">@color/primaryColorLeafGreen</item>
+        <item name="accentTextColor">@color/primaryTextColorLeafGreen</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- Lemon Theme -->
+    <style name="LemonLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorLemon</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorLemon</item>
+        <item name="trackTintColor">@color/primaryLightColorLemon</item>
+        <item name="android:listDivider">@color/primaryColorLemon</item>
+        <item name="accentTextColor">@color/primaryTextColorLemon</item>
+    </style>
+    <style name="LemonDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorLemon</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorLemon</item>
+        <item name="trackTintColor">@color/primaryDarkColorLemon</item>
+        <item name="android:listDivider">@color/primaryColorLemon</item>
+        <item name="accentTextColor">@color/primaryTextColorLemon</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- LightBlue Theme -->
+    <style name="LightBlueLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorLightBlue</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorLightBlue</item>
+        <item name="trackTintColor">@color/primaryLightColorLightBlue</item>
+        <item name="android:listDivider">@color/primaryColorLightBlue</item>
+        <item name="accentTextColor">@color/primaryTextColorLightBlue</item>
+    </style>
+    <style name="LightBlueDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorLightBlue</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorLightBlue</item>
+        <item name="trackTintColor">@color/primaryDarkColorLightBlue</item>
+        <item name="android:listDivider">@color/primaryColorLightBlue</item>
+        <item name="accentTextColor">@color/primaryTextColorLightBlue</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- LightGreen Theme -->
+    <style name="LightGreenLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorLightGreen</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorLightGreen</item>
+        <item name="trackTintColor">@color/primaryLightColorLightGreen</item>
+        <item name="android:listDivider">@color/primaryColorLightGreen</item>
+        <item name="accentTextColor">@color/primaryTextColorLightGreen</item>
+    </style>
+    <style name="LightGreenDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorLightGreen</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorLightGreen</item>
+        <item name="trackTintColor">@color/primaryDarkColorLightGreen</item>
+        <item name="android:listDivider">@color/primaryColorLightGreen</item>
+        <item name="accentTextColor">@color/primaryTextColorLightGreen</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- Lime Theme -->
+    <style name="LimeLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorLime</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorLime</item>
+        <item name="trackTintColor">@color/primaryLightColorLime</item>
+        <item name="android:listDivider">@color/primaryColorLime</item>
+        <item name="accentTextColor">@color/primaryTextColorLime</item>
+    </style>
+    <style name="LimeDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorLime</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorLime</item>
+        <item name="trackTintColor">@color/primaryDarkColorLime</item>
+        <item name="android:listDivider">@color/primaryColorLime</item>
+        <item name="accentTextColor">@color/primaryTextColorLime</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- Orange Theme -->
+    <style name="OrangeLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorOrange</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorOrange</item>
+        <item name="trackTintColor">@color/primaryLightColorOrange</item>
+        <item name="android:listDivider">@color/primaryColorOrange</item>
+        <item name="accentTextColor">@color/primaryTextColorOrange</item>
+    </style>
+    <style name="OrangeDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorOrange</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorOrange</item>
+        <item name="trackTintColor">@color/primaryDarkColorOrange</item>
+        <item name="android:listDivider">@color/primaryColorOrange</item>
+        <item name="accentTextColor">@color/primaryTextColorOrange</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- Pink Theme -->
+    <style name="PinkLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorPink</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorPink</item>
+        <item name="trackTintColor">@color/primaryLightColorPink</item>
+        <item name="android:listDivider">@color/primaryColorPink</item>
+        <item name="accentTextColor">@color/primaryTextColorPink</item>
+    </style>
+    <style name="PinkDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorPink</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorPink</item>
+        <item name="trackTintColor">@color/primaryDarkColorPink</item>
+        <item name="android:listDivider">@color/primaryColorPink</item>
+        <item name="accentTextColor">@color/primaryTextColorPink</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- Purple Theme -->
+    <style name="PurpleLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorPurple</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorPurple</item>
+        <item name="trackTintColor">@color/primaryLightColorPurple</item>
+        <item name="android:listDivider">@color/primaryColorPurple</item>
+        <item name="accentTextColor">@color/primaryTextColorPurple</item>
+    </style>
+    <style name="PurpleDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorPurple</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorPurple</item>
+        <item name="trackTintColor">@color/primaryDarkColorPurple</item>
+        <item name="android:listDivider">@color/primaryColorPurple</item>
+        <item name="accentTextColor">@color/primaryTextColorPurple</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- Red Theme -->
+    <style name="RedLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorRed</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorRed</item>
+        <item name="trackTintColor">@color/primaryLightColorRed</item>
+        <item name="android:listDivider">@color/primaryColorRed</item>
+        <item name="accentTextColor">@color/primaryTextColorRed</item>
+    </style>
+    <style name="RedDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorRed</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorRed</item>
+        <item name="trackTintColor">@color/primaryDarkColorRed</item>
+        <item name="android:listDivider">@color/primaryColorRed</item>
+        <item name="accentTextColor">@color/primaryTextColorRed</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- SkyPurple Theme -->
+    <style name="SkyPurpleLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorSkyPurple</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorSkyPurple</item>
+        <item name="trackTintColor">@color/primaryLightColorSkyPurple</item>
+        <item name="android:listDivider">@color/primaryColorSkyPurple</item>
+        <item name="accentTextColor">@color/primaryTextColorSkyPurple</item>
+    </style>
+    <style name="SkyPurpleDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorSkyPurple</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorSkyPurple</item>
+        <item name="trackTintColor">@color/primaryDarkColorSkyPurple</item>
+        <item name="android:listDivider">@color/primaryColorSkyPurple</item>
+        <item name="accentTextColor">@color/primaryTextColorSkyPurple</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+    <!-- Yellow Theme -->
+    <style name="YellowLightTheme" parent="LightTheme">
+        <item name="primaryColor">@color/primaryColorYellow</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorYellow</item>
+        <item name="trackTintColor">@color/primaryLightColorYellow</item>
+        <item name="android:listDivider">@color/primaryColorYellow</item>
+        <item name="accentTextColor">@color/primaryTextColorYellow</item>
+    </style>
+    <style name="YellowDarkTheme" parent="DarkTheme">
+        <item name="primaryColor">@color/primaryColorYellow</item>
+        <item name="primaryDarkColor">@color/primaryDarkColorYellow</item>
+        <item name="trackTintColor">@color/primaryDarkColorYellow</item>
+        <item name="android:listDivider">@color/primaryColorYellow</item>
+        <item name="accentTextColor">@color/primaryTextColorYellow</item>
+    </style>
+    <!--+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++-->
+
+
+
+
+
+
+</resources>

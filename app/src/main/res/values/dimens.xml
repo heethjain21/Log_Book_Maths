@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Font Size -->
+
+    <dimen name="headerTextSize">20sp</dimen>
+    <dimen name="largerTextSize">16sp</dimen>
+
+    <dimen name="homeCardViewIconText">10sp</dimen>
+
+    <dimen name="regularTextSize">14sp</dimen>
+    <dimen name="homeCardTextSize">12sp</dimen>
+
+    <!-- Sizes -->
+
+    <dimen name="cardViewLayoutPadding">12dp</dimen>
+    <dimen name="homeCardViewLayoutPadding">8dp</dimen>
+
+    <dimen name="cardCornerRadius">3.5dp</dimen>
+
+    <dimen name="cardCircleDiameter">50dp</dimen>
+    <dimen name="cardCircleRadius">25dp</dimen>
+
+    <dimen name="themeSelectorIconDiameter">40dp</dimen>
+    <dimen name="imageViewHorizontalPadding">20dp</dimen>
+
+</resources>

@@ -1,0 +1,239 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/accent_color_dialog_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="?backgroundColor"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:text="Accent Color"
+        android:textColor="?textColor"
+        android:textSize="@dimen/headerTextSize" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="20dp"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/accentButtonLemon"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_lemon" />
+
+            <ImageButton
+                android:id="@+id/accentButtonYellow"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_yellow" />
+
+            <ImageButton
+                android:id="@+id/accentButtonAmber"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_amber" />
+
+            <ImageButton
+                android:id="@+id/accentButtonOrange"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_orange" />
+
+            <ImageButton
+                android:id="@+id/accentButtonDeepOrange"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_deep_orange" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/accentButtonPink"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_pink" />
+
+            <ImageButton
+                android:id="@+id/accentButtonRed"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_red" />
+
+            <ImageButton
+                android:id="@+id/accentButtonBloodRed"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_blood_red" />
+
+            <ImageButton
+                android:id="@+id/accentButtonBrightRed"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_bright_red" />
+
+            <ImageButton
+                android:id="@+id/accentButtonBrown"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_brown" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/accentButtonLime"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_lime" />
+
+            <ImageButton
+                android:id="@+id/accentButtonLightGreen"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_light_green" />
+
+            <ImageButton
+                android:id="@+id/accentButtonLeafGreen"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_leaf_green" />
+
+            <ImageButton
+                android:id="@+id/accentButtonGreen"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_green" />
+
+            <ImageButton
+                android:id="@+id/accentButtonDarkGreen"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_dark_green" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/accentButtonCyan"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_cyan" />
+
+            <ImageButton
+                android:id="@+id/accentButtonLightBlue"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_light_blue" />
+
+            <ImageButton
+                android:id="@+id/accentButtonBrightBlue"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_bright_blue" />
+
+            <ImageButton
+                android:id="@+id/accentButtonBlue"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_blue" />
+
+            <ImageButton
+                android:id="@+id/accentButtonIndigo"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_indigo" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/accentButtonDeepPurple"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_deep_purple" />
+
+            <ImageButton
+                android:id="@+id/accentButtonBrightPurple"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_bright_purple" />
+
+            <ImageButton
+                android:id="@+id/accentButtonPurple"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_purple" />
+
+            <ImageButton
+                android:id="@+id/accentButtonDarkPurple"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_dark_purple" />
+
+            <ImageButton
+                android:id="@+id/accentButtonSkyPurple"
+                android:layout_width="@dimen/themeSelectorIconDiameter"
+                android:layout_height="@dimen/themeSelectorIconDiameter"
+                android:layout_margin="5dp"
+                android:background="@drawable/accent_button_sky_purple" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

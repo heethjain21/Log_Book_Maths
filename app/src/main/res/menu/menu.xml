@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="nav_view">
+
+
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home_black_24dp"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_log"
+            android:icon="@drawable/ic_adjust_black_24dp"
+            android:title="@string/logTitle" />
+        <item
+            android:id="@+id/nav_alog"
+            android:icon="@drawable/ic_adjust_black_24dp"
+            android:title="@string/alogTitle" />
+        <item
+            android:id="@+id/nav_sin"
+            android:icon="@drawable/ic_adjust_black_24dp"
+            android:title="@string/sinTitle" />
+        <item
+            android:id="@+id/nav_cos"
+            android:icon="@drawable/ic_adjust_black_24dp"
+            android:title="@string/cosTitle" />
+        <item
+            android:id="@+id/nav_tan"
+            android:icon="@drawable/ic_adjust_black_24dp"
+            android:title="@string/tanTitle" />
+        <item
+            android:id="@+id/nav_pow"
+            android:icon="@drawable/ic_adjust_black_24dp"
+            android:title="@string/powTitle" />
+        <item
+            android:id="@+id/nav_squares"
+            android:icon="@drawable/ic_adjust_black_24dp"
+            android:title="@string/squaresTitle" />
+
+        <item
+            android:id="@+id/nav_sqrt"
+            android:icon="@drawable/ic_adjust_black_24dp"
+            android:title="@string/sqrtTitle" />
+
+        <item
+            android:id="@+id/nav_fact"
+            android:icon="@drawable/ic_adjust_black_24dp"
+            android:title="@string/factTitle" />
+
+        <item
+            android:id="@+id/nav_reci"
+            android:icon="@drawable/ic_adjust_black_24dp"
+            android:title="@string/reciTitle" />
+
+        <item
+            android:id="@+id/nav_lsin"
+            android:icon="@drawable/ic_adjust_black_24dp"
+            android:title="@string/lsinTitle" />
+
+        <item
+            android:id="@+id/nav_lcos"
+            android:icon="@drawable/ic_adjust_black_24dp"
+            android:title="@string/lcosTitle" />
+
+        <item
+            android:id="@+id/nav_ltan"
+            android:icon="@drawable/ic_adjust_black_24dp"
+            android:title="@string/ltanTitle" />
+
+        <item
+            android:id="@+id/nav_isin"
+            android:icon="@drawable/ic_adjust_black_24dp"
+            android:title="@string/isinTitle" />
+
+        <item
+            android:id="@+id/nav_icos"
+            android:icon="@drawable/ic_adjust_black_24dp"
+            android:title="@string/icosTitle" />
+
+        <item
+            android:id="@+id/nav_itan"
+            android:icon="@drawable/ic_adjust_black_24dp"
+            android:title="@string/itanTitle" />
+
+    </group>
+
+    <item
+        android:layout_height="wrap_content"
+        android:title="Customization">
+
+        <menu>
+
+            <item
+                android:id="@+id/nav_round"
+                android:icon="@drawable/baseline_linear_scale_24"
+                android:title="Rounding"
+                app:actionLayout="@layout/rounding_value"/>
+
+            <item
+                android:id="@+id/nav_theme"
+                android:icon="@drawable/ic_hdr_weak_black_24dp"
+                android:title="Dark Mode"
+                app:actionLayout="@layout/dark_mode_switch" />
+
+            <item
+                android:id="@+id/nav_accent"
+                android:icon="@drawable/ic_color_lens_black_24dp"
+                android:title="Accent Color" />
+        </menu>
+
+    </item>
+
+    <item
+        android:layout_height="wrap_content"
+        android:title="Feedback">
+        <menu>
+            <item
+                android:id="@+id/nav_policy"
+                android:icon="@drawable/ic_all_inclusive_black_24dp"
+                android:title="Privacy Policy" />
+
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_star_black_24dp"
+                android:title="Rate App" />
+
+        </menu>
+
+    </item>
+
+</menu>

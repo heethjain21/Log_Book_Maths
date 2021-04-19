@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="?backgroundColor"
+    android:orientation="horizontal"
+    android:layout_marginRight="7.5dp">
+
+    <TextView
+        android:id="@+id/roundingTextView"
+        android:layout_gravity="center"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:gravity="center"
+        android:background="@drawable/rounded_shape"
+        android:text="4"
+        android:textSize="@dimen/homeCardViewIconText"
+        android:radius="50dp"
+        android:textColor="?attr/accentTextColor" />
+
+</LinearLayout>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rounding_dialog_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:padding="10dp"
+    android:background="?backgroundColor"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Rounding Value"
+        android:textColor="?textColor"
+        android:textSize="@dimen/headerTextSize"
+        android:padding="20dp"/>
+
+
+        <!-- <androidx.appcompat.widget.AppCompatSeekBar
+            android:id="@+id/slider"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:contentDescription="Description"
+            android:max="10"
+            android:progress="2"
+            android:progressBackgroundTint="?attr/primaryColor"
+            android:progressTint="?attr/trackTintColor"
+            android:thumbTint="?attr/primaryColor" /> -->
+
+    <com.xw.repo.BubbleSeekBar
+        android:id="@+id/roundingSelector"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        app:bsb_auto_adjust_section_mark="true"
+
+        app:bsb_thumb_color="?attr/primaryColor"
+        app:bsb_section_count="10"
+        app:bsb_max="10"
+        app:bsb_section_text_interval="1"
+        app:bsb_always_show_bubble="true"
+        app:bsb_bubble_color="?attr/primaryColor"
+        app:bsb_bubble_text_color="?attr/accentTextColor"
+        app:bsb_section_text_color="?attr/textColor"
+        app:bsb_touch_to_seek="true"
+
+        app:bsb_track_size="4dp"
+        app:bsb_second_track_size="5dp"
+
+        app:bsb_track_color="?attr/trackTintColor"
+        app:bsb_second_track_color="?attr/trackTintColor"/>
+
+    <!--
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="SET"
+            android:textColor="?attr/accentTextColor"
+            android:background="?attr/primaryColor"
+            app:cornerRadius="10dp"/>
+
+        <View
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="CANCEL" />
+
+    </LinearLayout>
+    -->
+</LinearLayout>
